@@ -1,0 +1,59 @@
+.about-content {
+    padding-top: 15%;
+    padding-bottom: 2.5em;
+}
+
+.about-text {
+    width: 65%;
+    z-index: 1;
+}
+
+.about-image {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 300px;
+    z-index: -1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+@media(max-width:768px) {
+    .about-content {
+        padding-top: 30%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-image {
+        top: 15%;
+
+    }
+}
+
+@media(max-width:600px) {
+    .about .link-content {
+        margin-top: 0;
+    }
+
+    .about button {
+        margin: 10px 0;
+    }
+
+    .about-image {
+        top: 10%;
+    }
+}
+
+@media(max-width:414px) {
+    .about-image {
+        top: 8%;
+        width: 250px;
+    }
+}

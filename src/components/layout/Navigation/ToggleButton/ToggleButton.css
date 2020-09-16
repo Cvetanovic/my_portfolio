@@ -1,0 +1,22 @@
+.toggle-btn {
+    display: grid;
+    grid-gap: 8px;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 20px 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.toggle-btn:focus {
+    outline: none;
+}
+
+.toggle-btn-line {
+    width: 30px;
+    height: 2px;
+    background: #ccc;
+}

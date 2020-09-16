@@ -1,0 +1,169 @@
+.project-content {
+    padding-top: 15%;
+    padding-bottom: 2.5em;
+}
+
+.project-info h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.project-info button {
+    border: 2px solid #fb7e11;
+    margin-top: 20px;
+}
+
+.back-btn button {
+    margin-left: 3em;
+    margin-top: 0;
+}
+
+.project-info {
+    background: #21042c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-text {
+    padding: 3% 0 3% 3%;
+    width: 50%;
+}
+
+.tehnologies span {
+    margin-right: 1em;
+    animation: blink 2500ms linear infinite 2000ms;
+    -webkit-animation: blink 2500ms linear infinite 2000ms;
+}
+
+.info-image {
+    margin-top: -5%;
+    width: 50%;
+}
+
+.info-image img {
+    width: 100%;
+    height: 83%;
+    object-fit: contain;
+}
+
+.project-images {
+    margin-top: 8em;
+    margin-bottom: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    perspective: 2000px;
+    -webkit-perspective: 2000px;
+}
+
+.project-images img {
+    height: 280px;
+    object-fit: contain;
+    border: 2px solid #7510f7;
+    transform: rotateY(-30deg) rotateX(5deg);
+    -webkit-transform: rotateY(-30deg) rotateX(5deg);
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transition: all 0.5s ease-out;
+}
+
+.project-images img:hover {
+    transform: scale(1.2, 1.2);
+    border: 2px solid #f0860c;
+}
+
+@keyframes blink {
+    40% {
+        text-shadow: 0 0 0.2em#ccc;
+    }
+}
+
+@-webkit-keyframes blink {
+    40% {
+        text-shadow: 0 0 0.2em#ccc;
+    }
+}
+
+@media (max-width:1440px) {
+    .project-content {
+        padding-top: 20%;
+    }
+
+    .info-image img {
+        height: 75%;
+    }
+}
+
+@media(max-width:1280px) {
+    .info-image img {
+        height: 70%;
+    }
+
+    .project-images img {
+        height: 200px;
+    }
+}
+
+@media(max-width:992px) {
+
+    .project-text {
+        padding: 5%;
+        width: 100%;
+    }
+
+    .info-image {
+        display: none;
+    }
+
+    .project-images {
+        flex-wrap: wrap;
+        margin-top: 2em;
+        margin-bottom: 2.5em;
+    }
+
+    .project-image {
+        width: 90%;
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    .project-images img {
+        height: 250px;
+    }
+}
+
+@media(max-width:768px) {
+    .project-image {
+        width: 80%;
+    }
+}
+
+@media(max-width:600px) {
+    .project-images img {
+        height: 200px;
+    }
+}
+
+@media(max-width:414px) {
+    .project-content {
+        padding-top: 30%;
+        text-align: center;
+    }
+
+    .back-btn button {
+        margin-left: 0;
+    }
+
+    .project-images img {
+        height: 140px;
+    }
+
+    .tehnologies {
+        display: grid;
+        grid-row-gap: 0.5em;
+    }
+
+    .tehnologies span {
+        margin-right: 0;
+    }
+}

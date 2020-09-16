@@ -1,0 +1,77 @@
+.contact-content {
+    padding-top: 15%;
+    padding-bottom: 2.5em;
+    text-align: center;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+.form-message {
+    min-height: 128px;
+    height: auto;
+}
+
+form input,
+textarea {
+    display: block;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid #21042c;
+    background-color: transparent;
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #7510f7;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input::placeholder,
+textarea::placeholder {
+    background-color: transparent;
+    color: #ccc;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+.error-text {
+    color: #f0860c;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.submit {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.submit:hover {
+    background-color: #fb7e11;
+    border: 2px solid #21042c;
+    color: #21042c;
+    font-weight: 500;
+}
+
+.submit:focus {
+    outline: none;
+}
+
+@media(max-width:768px) {
+    .contact-content {
+        padding-top: 30%;
+    }
+
+    form {
+        width: 90%;
+    }
+}

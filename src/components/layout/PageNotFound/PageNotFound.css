@@ -1,0 +1,32 @@
+.error-content {
+    padding-top: 15%;
+    padding-bottom: 2.5em;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-content span {
+    font-size: 1.5em;
+    padding-bottom: 3em;
+}
+
+@media (max-width:768px) {
+    .error-content {
+        padding-top: 30%;
+    }
+
+    .error span {
+        font-size: 20px;
+    }
+
+    .error img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .error .link-content {
+        margin-top: 0;
+
+    }
+}
