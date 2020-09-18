@@ -5,6 +5,7 @@
     height: 200px;
     perspective: 1000px;
     position: absolute;
+    opacity: 0.3;
     z-index: -1;
 }
 
