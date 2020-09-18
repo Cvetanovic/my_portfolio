@@ -24,8 +24,8 @@ class App extends Component {
         imgMedium: "../../images/tinie_tablet.jpg",
         imgSmall: "../../images/tinie_mobile.jpg",
         projectUrl: "https://tiniehoek.nl/",
-        description: "The ecommerce website developed with Divi thema.",
-        tehnologies: ["HTML5", "CSS3(SCSS)", "WordPress"],
+        description: "The website developed with Divi thema.",
+        tehnologies: ["HTML","CSS(SCSS)","WordPress"],
       },
       {
         id: 2,
@@ -35,8 +35,8 @@ class App extends Component {
         imgMedium: "../../images/shamliza_tablet.jpg",
         imgSmall: "../../images/shamliza_mobile.jpg",
         projectUrl: "https://shamliza.eu/en/",
-        description: "The complex website with customized theme.",
-        tehnologies: ["HTML5", "CSS3", "WordPress"],
+        description: "The complex website for selling furniture.",
+        tehnologies: ["HTML","CSS","WordPress"],
       },
       {
         id: 3,
@@ -46,8 +46,8 @@ class App extends Component {
         imgMedium: "../../images/cober_tablet.jpg",
         imgSmall: "../../images/cober_mobile.jpg",
         projectUrl: "https://cober.nl/nl/",
-        description: "The complex ecommerce website with customized theme.",
-        tehnologies: ["HTML5", "CSS3", "WordPress"],
+        description: "The complex website for selling jewelry.",
+        tehnologies: ["HTML","CSS","WordPress"],
       },
       {
         id: 4,
@@ -57,8 +57,8 @@ class App extends Component {
         imgMedium: "../../images/mihome_tablet.jpg",
         imgSmall: "../../images/mihome_mobile.jpg",
         projectUrl: "https://mihomegroup.com.au/",
-        description: "The architectural website with fully animation effects.",
-        tehnologies: ["HTML5", "CSS3(SCSS)", "WordPress"],
+        description: "The architectural website with animation effects.",
+        tehnologies: ["HTML","CSS(SCSS)","WordPress"],
       },
       {
         id: 5,
@@ -69,8 +69,8 @@ class App extends Component {
         imgSmall: "../../images/redminn_mobile.jpg",
         projectUrl: "https://redminn.com.au/",
         description:
-          "The industry website with customized theme and hover actions.",
-        tehnologies: ["HTML5", "CSS3(SCSS)", "WordPress"],
+          "The industry website with hover actions.",
+        tehnologies: ["HTML","CSS(SCSS)","WordPress"],
       },
       {
         id: 6,
@@ -81,8 +81,8 @@ class App extends Component {
         imgSmall: "../../images/thai_mobile.jpg",
         projectUrl:
           "https://cvetanovic.github.io/thai_restaurant/index.html#intro",
-        description: "The one-page website built with Bootstrap.",
-        tehnologies: ["HTML5", "CSS3", "Bootstrap", "jQuery"],
+        description: "The restaurant website built with Bootstrap.",
+        tehnologies: ["HTML","CSS","Bootstrap","jQuery"],
       },
       {
         id: 7,
@@ -93,8 +93,8 @@ class App extends Component {
         imgSmall: "../../images/addressBook_mobile.jpg",
         projectUrl: "https://address-book-react.netlify.app/",
         description:
-          "The simple web application with React router and validation form.",
-        tehnologies: ["HTML5", "CSS3", "React"],
+          "The web application with React router and validation form.",
+        tehnologies: ["React","CSS"],
       },
       {
         id: 8,
@@ -105,7 +105,7 @@ class App extends Component {
         imgSmall: "../../images/events_mobile.jpg",
         projectUrl: "https://events-app-4fc5e.web.app/",
         description: "The web application with Firebase authentication.",
-        tehnologies: ["HTML5", "CSS3", "React/Redux", "Firebase"],
+        tehnologies: ["React/Redux","CSS","Firebase"],
       },
       {
         id: 9,
@@ -116,8 +116,8 @@ class App extends Component {
         imgSmall: "../../images/shop_mobile.jpg",
         projectUrl: "https://react-shop-app.netlify.app/",
         description:
-          "The web ecommerce application with animation effects and click actions.",
-        tehnologies: ["HTML5", "Materialize", "React/Redux"],
+          "The web application with animation effects and click actions.",
+        tehnologies: ["React/Redux","Materialize"],
       },
     ],
   };
